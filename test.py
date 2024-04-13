@@ -93,7 +93,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 def main() -> None:
     """Run the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token("6191203365:AAF3pohjgvXATSe1LTFow9aAmM-4fR7L7sM").build()
+    application = Application.builder().token("BOT_Token").build()
 
     # Add conversation handler with the states GENDER, PHOTO, LOCATION and BIO
     conv_handler = ConversationHandler(
